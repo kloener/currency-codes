@@ -2,8 +2,8 @@ kind: pipeline
 name: default
 
 steps:
-  - name: testrunner
-    image: node
-    commands:
-      - npm install
-      - npm test
+    - name: tests
+      image: node
+      commands:
+          - npm i
+          - npm test
