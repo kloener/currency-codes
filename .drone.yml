@@ -2,7 +2,7 @@ kind: pipeline
 name: default
 
 steps:
-    - name: tests
+    - name: test
       image: node
       commands:
           - npm i
